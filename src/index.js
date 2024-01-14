@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Note that we're loading a special TopoJSON file
     // (world-110m-withlakes.json) so we can render lakes.
     globe.loadPlugin(planetaryjs.plugins.earth({
-      topojson: { file:   '/world-110m-withlakes.json' },
+      topojson: { file:   './src/world-110m-withlakes.json' },
       oceans:   { fill:   '#000080' },
       land:     { fill:   '#339966' },
       borders:  { stroke: '#008000' }
